@@ -1,0 +1,57 @@
+#sedans_container {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 40px;
+}
+#suvs_container {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 40px;
+}
+#luxury_container {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 40px;
+}
+#sedans_button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    padding: 10px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
+p {
+    font-family: "Lexend Deca", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+h2 {
+    font-family: "Big Shoulders Display", serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+#suvs_button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%); 
+    padding: 10px; 
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
+#luxury_button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    padding: 10px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    border: none;
+}
+#container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
