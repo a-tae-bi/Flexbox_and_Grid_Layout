@@ -1,17 +1,19 @@
-#sedans_container {
+#sedans_container { 
+    border-radius: 5px 0px 0px 5px;
     background-color: hsl(31, 77%, 52%);
     color: hsla(0, 0%, 100%, 0.75);
-    padding: 40px;
+    padding: 30px;
 }
 #suvs_container {
     background-color: hsl(184, 100%, 22%);
     color: hsla(0, 0%, 100%, 0.75);
-    padding: 40px;
+    padding: 30px;
 }
 #luxury_container {
+    border-radius: 0px 5px 5px 0px;
     background-color: hsl(179, 100%, 13%);
     color: hsla(0, 0%, 100%, 0.75);
-    padding: 40px;
+    padding: 30px;
 }
 #sedans_button {
     background-color: hsl(0, 0%, 95%);
@@ -21,16 +23,21 @@
     padding-left: 20px;
     padding-right: 20px;
     border: none;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    margin-top: 50px;
 }
 p {
-    font-family: "Lexend Deca", serif;
+    font-family: "Lexend Deca";
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14.5px;
 }
 h2 {
-    font-family: "Big Shoulders Display", serif;
+    font-family: "Big Shoulders Display";
     font-weight: 700;
     color: hsl(0, 0%, 95%);
+    letter-spacing: 1.5px;
+    margin-top: 30px;
 }
 #suvs_button {
     background-color: hsl(0, 0%, 95%);
@@ -40,6 +47,9 @@ h2 {
     padding-left: 20px;
     padding-right: 20px;
     border: none;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    margin-top: 50px;
 }
 #luxury_button {
     background-color: hsl(0, 0%, 95%);
@@ -49,6 +59,9 @@ h2 {
     padding-right: 20px;
     border-radius: 30px;
     border: none;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    margin-top: 50px;
 }
 #container {
     width: 50%;
